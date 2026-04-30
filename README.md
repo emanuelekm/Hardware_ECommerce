@@ -1,5 +1,9 @@
 # 🛒 E-Commerce de Hardware em Kotlin
 
+<p align="center">
+  <img src="baner_loja.png" alt="Banner do Projeto" width="100%">
+</p>
+
 ## 📌 Descrição do Projeto
 
 Este projeto consiste no desenvolvimento de um sistema de **e-commerce de equipamentos de hardware**, implementado em **Kotlin**, com **interface gráfica baseada em XML**, como parte da disciplina de **Programação de Aplicativos**.
