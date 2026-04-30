@@ -1,7 +1,7 @@
 # 🛒 E-Commerce de Hardware em Kotlin
 
 <p align="center">
-  <img src="baner_loja.png" alt="Banner do Projeto" width="100%">
+  <img src="banner_loja.png" alt="Banner do Projeto" width="100%">
 </p>
 
 ## 📌 Descrição do Projeto
