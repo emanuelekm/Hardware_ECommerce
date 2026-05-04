@@ -1,160 +1,95 @@
-# 🛒 E-Commerce de Hardware em Kotlin
+# E-Commerce de Hardware
 
 <p align="center">
   <img src="banner_loja.png" alt="Banner do Projeto" width="100%">
 </p>
 
-## 📌 Descrição do Projeto
-
-Este projeto consiste no desenvolvimento de um sistema de **e-commerce de equipamentos de hardware**, implementado em **Kotlin**, com **interface gráfica baseada em XML**, como parte da disciplina de **Programação de Aplicativos**.
-
-A aplicação simula o funcionamento de uma loja virtual completa, permitindo que usuários realizem login, naveguem por produtos, gerenciem um carrinho de compras e finalizem pedidos por meio de uma interface intuitiva.
-
-O projeto integra conceitos de **desenvolvimento mobile (Android)** com **Programação Orientada a Objetos (POO)**.
-
-> Autor(a): Emanuele Kmiecik  |  Linguagem: Kotlin
+![Status](https://img.shields.io/badge/status-Concluído-green?style=for-the-badge)
+![Linguagem](https://img.shields.io/badge/linguagem-Kotlin-blue?style=for-the-badge&logo=kotlin)
+![Nível](https://img.shields.io/badge/nível-Básico-green?style=for-the-badge)
+![Tipo](https://img.shields.io/badge/tipo-E--commerce-purple?style=for-the-badge)
 
 ---
 
-## 🎯 Objetivos
+## Descrição
 
-* Aplicar conceitos de **POO com Kotlin** em um contexto real
-* Desenvolver interfaces gráficas utilizando **XML (Android)**
-* Implementar a lógica de um sistema de e-commerce
-* Integrar backend lógico com frontend visual
+Este projeto consiste no desenvolvimento de um sistema de e-commerce voltado para a venda de equipamentos de hardware, com foco na simulação de uma loja virtual completa.
 
----
+O problema abordado é a necessidade de criar uma experiência de compra digital organizada e intuitiva, permitindo que usuários naveguem por produtos, visualizem detalhes e interajam com um sistema de compras. Como solução, foi desenvolvido um site com interface amigável, apresentando produtos, categorias e funcionalidades essenciais de um e-commerce.
 
-## 🧱 Estrutura do Projeto
-
-O sistema é composto pelas seguintes classes principais:
-
-### 📦 Produto
-
-Responsável por representar os itens disponíveis no catálogo.
-
-**Funcionalidades:**
-
-* Armazenar nome, preço e quantidade em estoque
-* Controle de disponibilidade
-* Integração com o carrinho
+O impacto do projeto está na compreensão prática do funcionamento de lojas virtuais, incluindo estrutura de navegação, organização de produtos e experiência do usuário.
 
 ---
 
-### 👤 Cliente
+## Objetivo
 
-Representa o usuário da aplicação.
-
-**Funcionalidades:**
-
-* Login no sistema
-* Criação de pedidos
-* Interação com o carrinho
+* Simular o funcionamento de uma loja virtual
+* Praticar desenvolvimento front-end com HTML, CSS e JavaScript
+* Trabalhar organização de produtos e layout de e-commerce
+* Desenvolver interfaces intuitivas e responsivas
+* Aplicar conceitos de interação com o usuário
 
 ---
 
-### 🛒 Carrinho
+## Tecnologias
 
-Gerencia os produtos selecionados.
-
-**Funcionalidades:**
-
-* Adicionar e remover produtos
-* Atualizar quantidades
-* Calcular valor total da compra
+* Kotlin
+* GitHub
 
 ---
 
-### 📄 Pedido
+## 👀 Preview
 
-Responsável pela finalização da compra.
+<!-- Adicione prints do sistema -->
 
-**Funcionalidades:**
-
-* Gerar resumo do pedido
-* Selecionar método de pagamento
-* Confirmar compra
-
----
-
-### ⚙️ Sistema
-
-Controla o fluxo da aplicação.
-
-**Funcionalidades:**
-
-* Navegação entre telas
-* Controle de estados
-* Gerenciamento das interações do usuário
+<!-- Sugestões:
+- Página inicial
+- Lista de produtos
+- Página de detalhes
+- Carrinho (se houver) -->
 
 ---
 
-## 🎨 Interface Gráfica (UI)
+## ⚙️ Como executar
 
-A interface foi desenvolvida utilizando **XML no Android**, garantindo separação entre lógica e apresentação.
+```bash
+# Clone o repositório
+git clone https://github.com/emanuelekm/Hardware_ECommerce.git
 
-**Principais telas:**
+# Acesse a pasta
+cd Hardware_ECommerce
 
-* 🔐 Tela de Login
-* 🏠 Tela Inicial / Menu
-* 🛍️ Catálogo de Produtos
-* 🛒 Carrinho de Compras
-* 💳 Finalização de Pedido
-
----
-
-## 🔄 Fluxo de Funcionamento
-
-1. Usuário acessa a **tela de login**
-2. Após autenticação:
-
-   * Visualiza o **menu principal**
-3. Pode:
-
-   * Navegar pelo catálogo
-   * Adicionar produtos ao carrinho
-4. No carrinho:
-
-   * Ajusta quantidades
-   * Visualiza total
-5. Finaliza o pedido:
-
-   * Escolhe método de pagamento
-   * Visualiza resumo e confirmação
+# Execute abrindo o arquivo index.html
+```
 
 ---
 
-## 🛠️ Tecnologias Utilizadas
+## Funcionalidades
 
-* **Kotlin**
-* **Android Studio**
-* **XML (Layouts Android)**
-* Programação Orientada a Objetos (POO)
-
----
-
-## 📚 Conceitos Aplicados
-
-* Arquitetura básica de apps Android
-* Separação entre **UI (XML)** e **lógica (Kotlin)**
-* Manipulação de listas com `RecyclerView`
-* Navegação entre telas
-* Gerenciamento de estado da aplicação
+* Exibição de produtos de hardware
+* Interface de loja virtual
+* Navegação entre produtos
+* Layout organizado por categorias
+* Simulação de experiência de compra
+* Design visual voltado para e-commerce
 
 ---
 
-## 🚀 Possíveis Melhorias Futuras
+## Aprendizados
 
-* Integração com banco de dados (SQLite / Firebase / MySQL)
-* Implementação de API REST
-* Sistema de autenticação com segurança avançada
-* Persistência de carrinho
-* Sistema de avaliações e comentários
-* Interface mais moderna com **Material Design 3**
-
+* Estruturação de um sistema de e-commerce
+* Organização de layout para lojas virtuais
+* Estilização com foco em UX/UI
+* Manipulação de elementos com JavaScript
+* Boas práticas de desenvolvimento front-end
+* Estruturação de projetos para portfólio
 
 ---
 
-## 📄 Licença
+## Links
+
+* Repositório: https://github.com/emanuelekm/Hardware_ECommerce.git
+
+---
 
 Este projeto possui finalidade acadêmica e pode ser utilizado como base para estudos e evolução de aplicações mobile.
